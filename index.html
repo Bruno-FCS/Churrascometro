@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Churrascômetro</title>
+    <link rel="icon" href="./images/icone_calculadora.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
     <main>
         <h1>Churrascômetro</h1>
-        <input id="nAdultos" class="item" type="text" placeholder="Número de Adultos"><br>
-        <input id="nCriancas" class="item" type="text" placeholder="Número de Crianças"><br>
-        <input id="duracao" class="item" type="text" placeholder="Duração em horas"><br>
-        <button id="botao" class="item" onclick="calcular()">Calcular</button><br>
-        <div id="carne" class="item" style="display: none;">A quantidade de carne é:</div><br>
-        <div id="agua" class="item" style="display: none;">A quantidade de agua é:</div><br>
-        <div id="refri" class="item" style="display: none;">A quantidade de refrigerante é:</div><br>
-        <div id="cerveja" class="item" style="display: none;">A quantidade de cerveja é:</div><br>
+        <input id="nAdultos" class="item" type="number" placeholder="Número de Adultos"><br>
+        <input id="nCriancas" class="item" type="number" placeholder="Número de Crianças"><br>
+        <input id="duracao" class="item" type="number" placeholder="Duração em horas"><br>
+        <button id="botao" class="item" onclick="calcular()"><img src="./images/icone_engrenagem.png" alt="Ícone de engrenagem">Calcular</button><br>
+        <div id="carne" class="item" style="display: none;"></div><br>
+        <div id="agua" class="item" style="display: none;"></div><br>
+        <div id="refri" class="item" style="display: none;"></div><br>
+        <div id="cerveja" class="item" style="display: none;"></div><br>
     </main>
     <script src="./script.js"></script>
 </body>
